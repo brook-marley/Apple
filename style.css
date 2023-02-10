@@ -5,6 +5,10 @@
 }
 
 
+body{
+    overflow-x: hidden;
+}
+
 nav{
     background-color: rgb(54, 54, 54); 
     height: 44px; 
@@ -244,7 +248,7 @@ section h1 span{
 }
 .gift-card img{
     height: 550px;
-    width: 150%;
+    width: 120%;
     border-radius: 50px;
     box-shadow: 0 10px 10px 10px rgb(153, 153, 153);
 }
@@ -264,9 +268,8 @@ section h1 span{
 }
 
 .airpods3-gen{
-    width: 70%;
+    width: 50%;
     height: 550px;
-    margin-right: 50px;
     margin-top: 10px;
     border-radius: 50px;
     box-shadow: 0 10px 10px 10px rgb(153, 153, 153);
@@ -277,6 +280,18 @@ section h1 span{
 .airpods3-gen img{
     width: 103%;
     margin-top: 40px;
+}
+
+.airpods3-gen h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 20px;
+    font-size: 19px;
+}
+
+.airpods3-gen h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 20px;
+    margin-top: 80px;
 }
 
 
