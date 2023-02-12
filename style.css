@@ -173,6 +173,7 @@ section h1 span{
     bottom: 463px;
     left: 515px;
     cursor: pointer;
+    margin-left: 3%;
 }
 
 .second-product h1{
@@ -181,6 +182,7 @@ section h1 span{
     bottom: 390px;
     left: 515px;
     cursor: pointer;
+    margin-left: 3%;
 }
 
 .second-product h4{
@@ -188,6 +190,7 @@ section h1 span{
     bottom: 360px;
     left: 515px; 
     cursor: pointer;
+    margin-left: 3%;
 }
 
 .third-product img{
