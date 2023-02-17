@@ -2,11 +2,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
 body{
     overflow-x: hidden;
+    background-color: rgb(247, 247, 247);
 }
 
 nav{
@@ -223,75 +225,88 @@ section h1 span{
     cursor: pointer;
 }
 
-.otherProducts{
-    display: flex;
-    margin-top: 30px;
-    margin-left: 10%;
-    width: 70%;
-    justify-content: space-between;
-    position: relative;
-}
 
-.gift-card p{
-    margin-left: 40px;
-    top: 20px;
+#help-title h1{
+    color: black;
+    margin-left: 100px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 13px;
-    color: rgb(107, 107, 107);
-    position: absolute;
 }
 
-.gift-card{
-    margin-right: 230px;
-}
-.gift-card img{
-    height: 550px;
-    width: 120%;
-    border-radius: 50px;
-    box-shadow: 0 10px 10px 10px rgb(153, 153, 153);
+#help-title span{
+    color: rgb(119, 119, 119);
 }
 
-.gift-card h1{
-    bottom: 82%;
-    font-size: 27px;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: rgb(253, 54, 54);
-    margin-left: 30px;
-    position: absolute;
-}
-
-.gift-card h3{
-    position: absolute;
-    margin-bottom: 29px;
-}
-
-.airpods3-gen{
+.appleHelp-1{
     width: 50%;
-    height: 550px;
-    margin-top: 10px;
-    border-radius: 50px;
-    box-shadow: 0 10px 10px 10px rgb(153, 153, 153);
+    background-color: red;
+    border-radius: 30px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
 
+#appleHelp-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#appleHelp-2 p{
+    padding-left: 30px;
+}
+
+.help-support-title{
+    
 }
 
 
-.airpods3-gen img{
-    width: 103%;
-    margin-top: 40px;
+
+#otherProducts{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
 }
 
-.airpods3-gen h2{
+#otherProducts img {
+    width: 100%;
+}
+
+#gift-card {
+    width: 30%;
+    height: 500px;
+    background-color: red;
+    padding: 30px 20px;
+    line-height: 3rem;
+    background-image: url("images/hjärtadag.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#gift-card h1{
+    font-size: 30px;
     font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 20px;
-    font-size: 19px;
+
 }
 
-.airpods3-gen h3{
+
+#otherProducts div {
+    border: 2px;
+    width: 25%;
+    height: 450px;
+    border-radius: 30px;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0 3px 3px 3px  rgb(226, 224, 224);
+}
+
+#otherProducts div p {
     font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 20px;
-    margin-top: 80px;
+    margin-bottom: 20px;
 }
 
-
+ 
