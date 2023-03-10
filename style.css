@@ -175,6 +175,7 @@ section h1 span{
     bottom: 463px;
     left: 515px;
     cursor: pointer;
+    margin-left: 3%;
 }
 
 .second-product h1{
@@ -183,6 +184,7 @@ section h1 span{
     bottom: 390px;
     left: 515px;
     cursor: pointer;
+    margin-left: 3%;
 }
 
 .second-product h4{
@@ -190,6 +192,7 @@ section h1 span{
     bottom: 360px;
     left: 515px; 
     cursor: pointer;
+    margin-left: 3%;
 }
 
 .third-product img{
@@ -254,41 +257,43 @@ section h1 span{
     padding-left: 30px;
 }
 
-.help-support-title{
-    
+.airpods3-gen{
+    width: 50%;
+    height: 550px;
+    margin-top: 10px;
+    border-radius: 50px;
+    box-shadow: 0 10px 10px 10px rgb(153, 153, 153);
+
 }
 
 
+.airpods3-gen img{
+    width: 103%;
+    margin-top: 40px;
+}
+
+.airpods3-gen h2{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
 
 #otherProducts{
     display: flex;
-    justify-content:space-between;
-    margin-top: 30px;
 }
 
-#otherProducts img {
-    width: 100%;
-}
-
-#gift-card {
-    width: 30%;
-    height: 500px;
-    background-color: red;
-    padding: 30px 20px;
-    line-height: 3rem;
-    background-image: url("images/hjärtadag.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 30px;
-    font-size: 20px;
-    cursor: pointer;
+#gift-card{
+    background-image: url(/images/hjärtadag.png);
+    position: relative;
 }
 
 #gift-card h1{
-    font-size: 30px;
-    font-family: 'Roboto Condensed', sans-serif;
+    padding-right: 50px;
+}
 
+#gift-card h1{
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-top: 40px;
 }
 
 
@@ -306,7 +311,13 @@ section h1 span{
 
 #otherProducts div p {
     font-family: 'Roboto Condensed', sans-serif;
-    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 80px;
 }
 
- 
+#otherProducts div img{
+    width: 100%;
+}
+  
+
+
